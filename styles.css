@@ -129,7 +129,7 @@ p {
   background-color: #f2f2f2;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-device-width: 800px) {
  .post, .about, .column {
    margin-left: 20px;
  }
@@ -150,7 +150,7 @@ p {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-device-width: 400px) {
   #header-nav, #header-title {
     display: inline;
     clear: both;
